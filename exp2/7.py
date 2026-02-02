@@ -1,0 +1,12 @@
+a=int(input("enter the integer:"))
+b=float(input("enter the float:"))
+c=input("enter the string:")
+d=bool(input("enter the boolean:"))
+e=(input("enter the complex:"))
+f=complex(e)
+
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+print(type(f))
