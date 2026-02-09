@@ -1,0 +1,5 @@
+x=int(input("Enter a number:"))
+print(x)
+print("binaryu conversion:",bin(x))
+print("ocatl conversion:",oct(x))
+print("hexadecimal conversion:",hex(x))
