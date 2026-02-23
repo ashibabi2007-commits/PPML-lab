@@ -1,0 +1,5 @@
+a=input("Enter the sentance:")
+print("the sentence in upper case:",a.upper())
+print("the sentence in lower case:",a.lower())
+print("the sentence in capilised:",a.capitalize())
+print("the length of the sentence is :",len(a))

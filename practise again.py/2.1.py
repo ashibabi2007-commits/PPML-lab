@@ -1,0 +1,6 @@
+p=float(input("enter the principal amount:"))
+r=float(input("enter the rate of interest:"))
+t=float(input("enter the time period:"))
+n=int(input("enter the number of times interest to be compound:"))
+print("Simple interest:",(p*t*r)/100)
+print("Compound interest:",(p*(1-r-n)**(n*t))-p)
